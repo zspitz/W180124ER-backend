@@ -1,0 +1,29 @@
+מה התאור
+סטאק - NodeJS MongoDB express
+
+ספריות - 
+bcrypt
+jwt
+mongoose
+joi
+dotenv
+
+data structures:
+collections
+structure documents - fields, document nesting
+
+endpoints
+(middleware)
+parameters
+body
+authorization required?
+HTTP method
+response
+
+documentation:
+README
+how to install and run
+dotenv variables
+endpoint document
+LICENSE
+logged contents
