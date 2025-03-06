@@ -7,4 +7,6 @@ Built with NodeJS, MongoDB, Express.js.
 See issues for steps.
 
 
-To run, type `npm i`.
+To install, type `npm i`.
+
+To run, type `npm start`.
