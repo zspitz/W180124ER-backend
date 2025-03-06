@@ -1,0 +1,25 @@
+{
+    "name": "w180124er-backend",
+    "version": "1.0.0",
+    "description": "This is a NodeJS project.",
+    "homepage": "https://github.com/zspitz/W180124ER-backend#readme",
+    "bugs": {
+        "url": "https://github.com/zspitz/W180124ER-backend/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zspitz/W180124ER-backend.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node --experimental-strip-types --watch-path=./src src/index.ts"
+    },
+    "dependencies": {
+        "typescript": "^5.8.2"
+    },
+    "devDependencies": { }
+}
