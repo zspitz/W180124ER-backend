@@ -1,10 +1,15 @@
-const s: string = 'ab"cd'
-const s1 = 'xyz'
-console.log(s)
-console.log(s + s)
+console.log(process.env.NODE_ENV)
 
-console.log(`print ${s}`)
+require('dotenv').config({ path: `.env.${process.env.NODE_ENV}` })
 
-const fn = () => {
-    console.log(5)
-}
+const express = require('express')
+const app = express()
+const PORT = process.env.PORT || 3000
+
+app.get('/', (req, res) => {
+    res.send(`Hello ${process.env.HELLO || ''}`)
+})
+
+app.listen(PORT, () => {
+    console.log(`Server running on port:${PORT}`)
+})

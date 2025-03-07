@@ -13,7 +13,8 @@ export default [
     {
         rules: {
             'quotes': ['warn', 'single'],
-            'semi': ['error', 'never']
+            'semi': ['error', 'never'],
+            '@typescript-eslint/no-require-imports': 'off'
         }
     }
 ]

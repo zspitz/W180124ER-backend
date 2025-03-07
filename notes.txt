@@ -27,3 +27,5 @@ dotenv variables
 endpoint document
 LICENSE
 logged contents
+
+does schema add array of dates for previous objects?
